@@ -1,0 +1,6 @@
+<view class="recommend">
+  <view class="recommendView" wx:for="{{recommendList}}">
+    <image class="recommendImg" src="{{item.imgSrc}}"></image>
+    <text class="recommendText"> {{item.name}}</text>
+  </view>
+</view>

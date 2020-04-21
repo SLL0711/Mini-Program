@@ -1,0 +1,26 @@
+.homenav {
+  background-color: #e89ba8;
+  color: white;
+  font-size: 36rpx;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  top: 0;
+}
+
+.swiperView {
+  margin-top: 88rpx;
+}
+
+.swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.bottomView {
+  text-align: center;
+  font-size: 24rpx;
+  padding: 28rpx 0;
+  background: rgba(149, 144, 144, 0.5);
+  color: white;
+}

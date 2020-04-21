@@ -1,0 +1,13 @@
+<view class="goodsView">
+  <view wx:for="{{goods}}" class="goodview">
+    <image class="goodImg" src="{{item.imgSrc}}"></image>
+    <view class="textContainer">
+      <view class="Text">
+        {{item.desc}}
+      </view>
+      <view class="Text Price">
+        ${{item.price}}
+      </view>
+    </view>
+  </view>
+</view>

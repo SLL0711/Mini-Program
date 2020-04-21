@@ -1,0 +1,18 @@
+.nav-bar {
+  display: flex;
+  line-height: 88rpx;
+  height: 88rpx;
+  text-align: center;
+}
+
+.nav-bar .left {
+  flex-basis: 120rpx;
+}
+
+.nav-bar .center {
+  flex: 1;
+}
+
+.nav-bar .right {
+  flex-basis: 120rpx;
+}

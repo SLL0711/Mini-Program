@@ -1,0 +1,29 @@
+.recommend {
+  height: 260rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 24rpx;
+  padding: 0rpx 0rpx 40rpx 0rpx;
+  border-bottom: 18rpx solid rgba(245, 242, 242, 0.5);
+}
+
+.recommendView {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  align-items: space-between;
+  flex-basis: 130rpx;
+  padding: 20rpx 0rpx 0rpx 0rpx;
+}
+
+.recommendImg {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+
+.recommendText {
+  padding: 10rpx 0rpx 0rpx 0rpx;
+}

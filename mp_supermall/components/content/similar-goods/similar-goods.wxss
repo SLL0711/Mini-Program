@@ -1,0 +1,33 @@
+.goodsView {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 20rpx auto;
+  justify-content: space-between;
+}
+
+.goodview {
+  width: 340rpx;
+  height: 400rpx;
+  margin-top: 40rpx;
+}
+
+.goodImg {
+  width: 340rpx;
+  height: 340rpx;
+  border-radius: 10rpx;
+}
+
+.Text {
+  width: 100%;
+  font-size: 24rpx;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color: #232326;
+}
+
+.Price {
+  color: red;
+}

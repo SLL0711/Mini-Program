@@ -1,0 +1,25 @@
+<!-- 导航栏 -->
+<view class="container homenav">
+  <nav-bar>
+    <view slot="left"></view>
+    <view slot="center">购物街</view>
+    <view slot="right"></view>
+  </nav-bar>
+</view>
+
+<!-- 轮播图 -->
+<view class="swiperView">
+  <swiper class="swiper" indicator-color="rgba(255, 255, 255, 0.5)" indicator-dots="true" indicator-active-color="rgba(156, 148, 148, 0.5)" circular="true" autoplay="true" interval="3000">
+    <block wx:for="{{bannerList}}">
+      <swiper-item>
+        <image src="{{item.image}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- 推荐 -->
+<re-cmd recommendList="{{recommendList}}"></re-cmd>
+<!-- 货品展示 -->
+<similar-good goods="{{similarProducts.list}}"></similar-good>
+<view wx:if="{{bottomLine}}" class="bottomView">人家也是有底线的啦</view>

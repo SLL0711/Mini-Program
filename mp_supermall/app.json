@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/bcar/bcar",
+    "pages/category/category",
+    "pages/profile/profile"
+  ],
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/img/home.png",
+        "selectedIconPath": "assets/img/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/img/category.png",
+        "selectedIconPath": "assets/img/category_active.png"
+      },
+      {
+        "pagePath": "pages/bcar/bcar",
+        "text": "购物车",
+        "iconPath": "assets/img/bcar.png",
+        "selectedIconPath": "assets/img/bcar_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/img/profile.png",
+        "selectedIconPath": "assets/img/profile_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "京西商城",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

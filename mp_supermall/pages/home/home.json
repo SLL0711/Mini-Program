@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "nav-bar":"/components/common/navigation-bar/navigation-bar",
+    "re-cmd":"./homeComps/recommend",
+    "similar-good": "/components/content/similar-goods/similar-goods"
+  },
+  "onReachBottomDistance":200
+}
